@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		A1086BA31AE6DF94004A75BC /* TravisTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TravisTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1086BA61AE6DF94004A75BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1086BAE1AE6E82A004A75BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/.travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		A1086B9A1AE6DF94004A75BC = {
 			isa = PBXGroup;
 			children = (
+				A1086BAF1AE6E82A004A75BC /* .travis.yml */,
 				A1086BA51AE6DF94004A75BC /* TravisTest */,
 				A1086BA41AE6DF94004A75BC /* Products */,
 			);
@@ -123,6 +125,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1086BAF1AE6E82A004A75BC /* .travis.yml */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1086BAE1AE6E82A004A75BC /* en */,
+			);
+			name = .travis.yml;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A1086BA81AE6DF94004A75BC /* Debug */ = {
